@@ -7,13 +7,13 @@ end
 
 # 通常ループver
 def loop_fizz_buzz(n)
-  (1..n).each {|i| puts fizz_buzz?(i)}
+  (1..n).each { |i| puts fizz_buzz?(i) }
 end
 
 # 配列ver
 def array_fizz_buzz(n)
   array = [*(1..n)]
-  array.map {|i| puts fizz_buzz?(i)}
+  array.map { |i| puts fizz_buzz?(i) }
 end
 
 # 再帰処理ver
