@@ -5,6 +5,15 @@ def fizz_buzz?(n)
   return n
 end
 
+def fizz_buzz?(n)
+  # return "FizzBuzz" if n % 15 == 0
+  n"Fizz" if n % 3 == 0
+  "Buzz" if n % 5 == 0
+  return n
+end
+
+
+
 # 通常ループver
 def loop_fizz_buzz(n)
   (1..n).each { |i| puts fizz_buzz?(i) }
@@ -30,3 +39,10 @@ end
 
 # 通常ループver
 loop_fizz_buzz(100)
+
+#1行
+# def one_liner_fizzbuzz(n)
+#   (1..n).each{ |i|i%3<1&&x=:Fizz; puts i%5<1 ? "#{x}Buzz":x||i }
+# end
+
+# one_liner_fizzbuzz(100)
