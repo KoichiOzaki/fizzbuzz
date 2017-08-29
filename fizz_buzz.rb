@@ -5,15 +5,6 @@ def fizz_buzz?(n)
   return n
 end
 
-def fizz_buzz?(n)
-  # return "FizzBuzz" if n % 15 == 0
-  n"Fizz" if n % 3 == 0
-  "Buzz" if n % 5 == 0
-  return n
-end
-
-
-
 # 通常ループver
 def loop_fizz_buzz(n)
   (1..n).each { |i| puts fizz_buzz?(i) }
